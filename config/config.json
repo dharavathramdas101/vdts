@@ -1,0 +1,28 @@
+# file holds all the project settings, when i am working on projects involving many configuraables constants, as well as input/output files and directories, i like to create seperate configuration files 
+
+{
+    "max_disappear: 10",
+
+    "max_distance":175,
+
+    "track_object":4,
+
+    "confidence": 0.4,
+
+    "frame_width": 400,
+
+    "speed_estimation_zones": {"A" : 120, "B":160, "C":200, "D":240},
+
+    "distance": 16,  #meters
+
+    "speed_limit":15,   #in mph
+
+    "display": true,
+
+    "model_path": "C:\Users\DHARAVATH RAMDAS\vdts\yolov5s.pt",
+
+    "output_path": "output",
+    "csv_vdts": "log.csv"
+
+}
+
